@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText">
+
+
+
+    <item
+        android:id="@+id/nav_dashboard"
+        android:title="DASHBOARD"
+        />
+
+<!--    <item-->
+<!--        android:id="@+id/nav_notifications"-->
+<!--        android:title="Notifications"-->
+<!--        android:onClick="OnNotificationsClick"/>-->
+
+    <item
+        android:id="@+id/nav_personal_library"
+        android:title="PERSONAL LIBRARY"
+        />
+
+<!--    <item-->
+<!--        android:id="@+id/nav_history"-->
+<!--        android:title="Borrowing/Lending History"-->
+<!--        android:onClick="OnBorrowLendClick"/>-->
+
+    <item
+        android:id="@+id/nav_account"
+        android:title="MY ACCOUNT"
+        />
+
+
+    <item
+        android:id="@+id/aboutapp"
+        android:title="ABOUT APP"
+        />
+
+    <item
+        android:id="@+id/nav_logout"
+        android:title="LOGOUT"
+        android:onClick="OnLogoutClick"/>
+
+</menu>

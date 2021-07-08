@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/bookName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="#442C2A"
+                android:fontFamily="@font/francois_one"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="30dp"
+                />
+
+            <Button
+                android:id="@+id/date_picker"
+                android:layout_width="310sp"
+                android:layout_height="50dp"
+                android:text="Select Time to Borrow"
+                android:textColor="@color/black"
+                android:fontFamily="@font/francois_one"
+                android:textSize="19dp"
+
+                />
+
+            <Button
+                android:id="@+id/req_books"
+                android:layout_width="310sp"
+                android:layout_height="50dp"
+                android:textColor="@color/colorBlack"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/francois_one"
+                android:text="Send Request to Borrow this Book"
+                 android:textSize="19dp"
+
+                />
+
+
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/cardview_dark_background"
+                android:layout_marginBottom="50dp"/>
+            <TextView
+                android:text="SET THE FOLLOWING REMINDER"
+                android:textSize="23sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:fontFamily="@font/francois_one"
+                android:textColor="#442C2A"/>
+
+
+
+
+
+
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_weight="1.5"-->
+<!--            android:gravity="center"-->
+<!--            android:orientation="vertical">-->
+
+            <EditText
+                android:layout_marginTop="10dp"
+                android:id ="@+id/title"
+                android:fontFamily="@font/francois_one"
+                android:layout_width="310sp"
+                android:textColor="#442C2A"
+                android:layout_height="wrap_content"
+                />
+
+
+            <EditText
+                android:id ="@+id/description"
+                android:layout_width="310sp"
+                android:fontFamily="@font/francois_one"
+                android:textColor="#442C2A"
+                android:layout_height="wrap_content"
+                />
+
+
+            <EditText
+                android:id ="@+id/location"
+                android:layout_width="310sp"
+                android:textColor="#442C2A"
+                android:fontFamily="@font/francois_one"
+                android:layout_height="wrap_content"
+                />
+
+
+
+
+
+
+
+
+
+
+            <Button
+                android:id="@+id/calender"
+                android:layout_width="310sp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:text = "Set Reminder to Return Book"
+                android:textColor="@color/black"
+                android:textSize="19dp"
+                android:fontFamily="@font/francois_one"
+
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
